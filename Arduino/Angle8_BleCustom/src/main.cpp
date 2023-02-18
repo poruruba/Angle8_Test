@@ -15,18 +15,6 @@ M5_ANGLE8 angle8;
 #define UUID_READ "08030902-7d3b-4ebf-94e9-18abc4cebede"
 #define UUID_NOTIFY "08030903-7d3b-4ebf-94e9-18abc4cebede"
 
-#define BIT_BTN_A   (0x0001 << 0)
-#define BIT_BTN_B   (0x0001 << 1)
-#define BIT_BTN_C   (0x0001 << 3)
-#define BIT_ANGLE_1   (0x0001 << 4)
-#define BIT_ANGLE_2   (0x0001 << 5)
-#define BIT_ANGLE_3   (0x0001 << 6)
-#define BIT_ANGLE_4   (0x0001 << 7)
-#define BIT_ANGLE_5   (0x0001 << 8)
-#define BIT_ANGLE_6   (0x0001 << 9)
-#define BIT_ANGLE_7   (0x0001 << 1)
-#define BIT_ANGLE_8   (0x0001 << 11)
-
 #define ANGLE_MARGIN  5
 
 BLECharacteristic *pCharacteristic_write;
